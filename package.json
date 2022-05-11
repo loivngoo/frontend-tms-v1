@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "live-server --port=3000 --open=`./index.html`"
+    "start": "live-server --port=3000 --open=`./index.html`"
   },
   "author": "",
   "license": "ISC",
