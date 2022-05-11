@@ -1,0 +1,20 @@
+{
+  "remoteServiceBaseUrl": "http://localhost:3000",
+  "appBaseUrl": "http://localhost:3000",
+  "enableNormalLogin": true,  
+  "backendIsNotABP": true,
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+    {
+      "from": "he-IL",
+      "to": "he"
+    }
+  ]
+}
