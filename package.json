@@ -1,21 +1,22 @@
 {
-  "name": "client",
+  "name": "timesheet",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "engines": {
     "node": "16.x"
   },
   "scripts": {
-    "start": "live-server --port=3000 --open=`./index.html`",
-    "heroku-postbuild": "live-server --port=3000 --open=`./index.html`",
-    "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
+    "start": "live-server --port=3000 --open=`./index.html`"
   },
-  "author": "",
+  "author": "Loi Van Ngo",
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.2",
     "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loivngoo/frontend-tms-v1"
   }
 }
